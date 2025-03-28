@@ -5,10 +5,11 @@
   components:
     - type: StationEvent
       earliestStart: 30
-      reoccurrenceDelay: 100
+      reoccurrenceDelay: 500
+      weight: 3
       duration: 325
     - type: AnomalyExplosionRule
       damage:
         types:
-          Psy: 2
+          Psy: 4
       damageTime: 128
